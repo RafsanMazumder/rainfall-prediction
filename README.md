@@ -4,9 +4,16 @@ rainfall-prediction is based on Neural Network in python 3.6.9, to predict preci
 ## Usage main.py
 
 ```python
-import foobar
-
 if __name__ == '__main__':
     set_optimal_learning_rate() # set the optimal learning rate by tuning our model
     rainfall_prediction() # generate prediction on the given dataset
+```
+
+## Parameters settings.py
+
+```python
+# Fetches parameters from environment file
+file_path = os.getenv('file_path') # dataset file location
+rainfall_column = int(os.getenv('rainfall_column')) # rainfall column index in dataset
+split_size = int(os.getenv('split_size')) # test-train split point 
 ```
