@@ -6,6 +6,7 @@ import csv
 
 
 def csv_parser():
+    """parse csv file data and generate rainfall data with timestep"""
     time_step = []
     rainfall = []
 
@@ -26,6 +27,7 @@ def csv_parser():
 
 
 def plot_series(series, time, format="-", start=0, end=None):
+    """plotting series against time for visualization"""
     plt.figure(figsize=(10, 6))
     plt.plot(time[start:end], series[start:end], format)
     plt.xlabel("Time")
