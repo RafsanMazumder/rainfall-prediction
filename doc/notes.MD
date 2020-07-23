@@ -1,7 +1,6 @@
 ## Features and Labels
 
-The features are the descriptive attributes, and the label is what we're attempting to predict or forecast. In this project, 
-the features are a set of rainfall data, with our label being the next rainfall value. So for example, if we take our time 
+The features are the descriptive attributes, and the label is what we're attempting to predict or forecast. In this project,  the features are a set of rainfall data, with our label being the next rainfall value. So for example, if we take our time 
 series data, say, 30 days at a time, we'll use 30 values as the feature and the next value is the label. Then over time, we'll
 train a neural network to match the 30 features to the single label.
 
