@@ -39,6 +39,10 @@ the learning rate is a tuning parameter in an optimization algorithm that determ
 * Hidden Layers: Layers of nodes between the input and output layers. There may be one or more of these layers.
 * Output Layer: A layer of nodes that produce the output variables.
 
+Dense layer means, each neuron in a layer receives an input from all the neurons present in the previous layer—thus, they’re densely connected. 
+
+In our case, we have used three layers of 10, 10, and 1 neurons and activated each layer using a relu (activation function).
+
 
 
 
