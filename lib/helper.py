@@ -27,7 +27,7 @@ def csv_parser():
 
 
 def plot_series(series, time, format="-", start=0, end=None):
-    """plotting series against time for visualization"""
+    """plot series against time for visualization"""
     plt.figure(figsize=(10, 6))
     plt.plot(time[start:end], series[start:end], format)
     plt.xlabel("Time")
