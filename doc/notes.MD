@@ -67,11 +67,11 @@ def relu(x):
     return x
 ```
 
-### Epoch
+## Epoch
 
 In terms of artificial neural networks, an epoch refers to one cycle through the full training dataset. Usually, training a neural network takes more than a few epochs.
 
-### Picking Learning Rate
+## Picking Learning Rate
 
 Learning rate scheduler changes the learning rates to a value based on the epoch number. From the loss (per epoch) vs learning rate (per epoch) grpah, We can try to pick the lowest point of the curve which is relatively stable. 
 
