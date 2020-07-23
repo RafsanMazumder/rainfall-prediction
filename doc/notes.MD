@@ -29,3 +29,25 @@ Mean squared error (MSE) is the most commonly used loss function for regression.
 
 ## Neural Network Setup
 We'll use the mean squared error as loss function by setting loss to MSE, and Gradient Descent as optimizer. 
+
+## Learning Rate
+the learning rate is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function. It is a hyper-parameter that controls how much we are adjusting the weights of our network with respect the loss gradient. The lower the value, the slower we travel along the downward slope. While this might be a good idea (using a low learning rate) in terms of making sure that we do not miss any local minima, it could also mean that we’ll be taking a long time to converge. A learning rate schedule changes the learning rate during learning and is most often changed between epochs/iterations. 
+
+## Layers in Neural Network
+
+* Input Layer: Input variables, sometimes called the visible layer.
+* Hidden Layers: Layers of nodes between the input and output layers. There may be one or more of these layers.
+* Output Layer: A layer of nodes that produce the output variables.
+
+
+
+
+
+
+
+
+
+
+
+
+
